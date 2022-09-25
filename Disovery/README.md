@@ -1,3 +1,3 @@
 # Discovery
 
-Discovery documents and folder/file explanations.
+Discovery documents and folder/file explanations
