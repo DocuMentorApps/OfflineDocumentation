@@ -2,7 +2,7 @@
 
 ## Summary
 
-This application serves at-home healthcare providers. It provides caregivers with functionalities including clocking in and out with location tracking, viewing and updating patient documentation, and viewing previous visit information, scheduling, and client listings. All of these features are available offline. 
+This application serves at-home healthcare providers with the ability to manage and view patient and caregiver information while offline. 
 
 ## Team Members
   * Abby Huelhorst
