@@ -13,9 +13,10 @@ This application serves at-home healthcare providers. It provides caregivers wit
 ## Client Partner Information
 
 ### *Company*
-Documentor
+DocuMentor
 
 ### *People*
+
 
 ## Links
 
