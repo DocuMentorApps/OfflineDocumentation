@@ -18,6 +18,8 @@ Abby
 
 ## Topics Discussed
 
+* Project Process
+  * working in one month iterations
 * Company Information
   * agency management company
   * agencies employ home healthcare workers
@@ -34,6 +36,8 @@ Abby
   * AWS
 * Flow of the web app from user perspective (recorded)
   * client will give us access to a DocuMentor test account so that we can follow the flow of the app ourselves
+* Requirement Prioritization
+  * client did not have preference of which features should be implemented in first release
 * Clarifications
   * caregivers should be able to clock in/out even if they are not in "proper" location
     * their geolocation is recorded, and agencies handle this information externally
@@ -41,6 +45,6 @@ Abby
   * mobile/offline web app should look just like their current web app (same UI design)
 * Communication 
   *  email and slack
- 
+
 ## Things Clarified
 * client is working on giving us access to company github, slack channel, and aws account
