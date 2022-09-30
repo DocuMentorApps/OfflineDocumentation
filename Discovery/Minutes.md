@@ -50,4 +50,4 @@ Abby
 * client is working on giving us access to company github, slack channel, and aws account
 
 ## Meeting Screenshot
-![image](https://user-images.githubusercontent.com/89402649/193335864-a335516c-e92f-4d7d-910d-69a1c65cae92.png = 50x50)
+![image](https://user-images.githubusercontent.com/89402649/193335864-a335516c-e92f-4d7d-910d-69a1c65cae92.png =100x100)
