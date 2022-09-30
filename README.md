@@ -16,6 +16,7 @@ This application serves at-home healthcare providers with the ability to manage 
 DocuMentor
 
 ### *People*
+William Birdsong
 
 
 ## Links
