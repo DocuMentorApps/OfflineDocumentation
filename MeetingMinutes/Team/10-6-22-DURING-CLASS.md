@@ -4,7 +4,7 @@
 2022/10/06/08:15
 
 ## Meeting End Time
-2022/09/25/02:00
+2022/09/25/09:00
 
 ## Location/Medium
 RB 104/Zoom
