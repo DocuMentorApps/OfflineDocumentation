@@ -7,7 +7,7 @@
 2022/09/25/02:00
 
 ## Location/Medium
-RB 104/zoom
+RB 104/Zoom
 
 ## Present
 Abby, Nathan, Lucas, Alex
