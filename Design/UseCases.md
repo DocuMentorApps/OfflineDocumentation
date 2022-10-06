@@ -40,15 +40,21 @@
   
     
     
-* UC5: Express clock out 
+* UC5: Express clock out
   * Business requirement:
   * Actor: caregiver
-  * Flow: Caregiver presses 'enter note' and can type in an overall note for the visit. Then they are presented with 'clock out' button.
+  * Flow: Caregiver presses 'enter note' and can type in an overall note for the visit. Then they are presented with 'clock out' button. They press 'clock     out' and are taken back to home screen.
   * Why it's a use case:
 
 
+* UC6: Modify note
+ * Business requirement: 
+ * Actor: caregiver
+ * Flow: Caregiver can retype their note then press 'modify note' for the new note to be saved. 
+ * Why it's a use case:
 
-* UC6: Add tasks
+
+* UC7: Add tasks
   * Business requirement: 
   * Actor: caregiver
   * Flow: Caregiver can select a task (Hygiene- bed/sponge bath, Dress - Assist w dressing ....) from a drop down menu to be added to 
@@ -57,13 +63,15 @@
   
   
   
-* UC7: Add goals
+* UC8: Add goals
   * Business requirement: 
   * Actor: caregiver
   * Flow: Caregiver can select a goal from a drop down menu. Once they select a goal, they are prompted to enter their strategy used, select
   an outcome (succesful, succesful with assistance, unsucessful), enter a note, then save the outcome.
   * Why it's a use case: 
   
+  
+- should caregivers be able to clock in to scheduled visits? - how would we do this offline?
 
   
  
