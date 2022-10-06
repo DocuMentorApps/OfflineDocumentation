@@ -10,7 +10,7 @@
     - Priority: HIGH
 - FR4: If the caregiver needs to take notes, the system shall save them and upload them once they connect to the internet.
     - Business Requirements: BR2
-    - Priority: MEDIUM
+    - Priority: LOW
 
 ## Non-functional Requirements
 - NR1: The offline web app shall be at least 95 percent available 24/7.
@@ -21,7 +21,7 @@
     - Priority: MEDIUM
 - NR3: Data shall be uploaded in less than 1 minute once the caregiver connects to the internet.
     - Business Requirements: BR1, BR2
-    - Priority: HIGH
+    - Priority: MEDIUM
 - NR4: A trained user shall be able to clock-in and clock-out in an average of 1 minute, 95 percent of the time, after 10 minutes of orientation time.
     - Business Requirements: BR1
     - Priority: LOW
@@ -33,7 +33,7 @@
     - Priority: HIGH
 - NR7: The application must look like the pre-existing web app.
     - Business Requirements: BR3
-    - Priority: HIGH
+    - Priority: MEDIUM
 - NR8: The application must provide all pre-existing caregiver functions while offline.
     - Business Requirements: BR4
     - Priority: HIGH
