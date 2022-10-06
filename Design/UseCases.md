@@ -27,7 +27,7 @@
       
 * Use case 5: Express clock out 
   * Actor: caregiver
-  * Caregiver presses 'enter note', then is presented with 'clock out' button.
+  * Caregiver presses 'enter note' and can type in an overall note for the visit. Then they are presented with 'clock out' button.
 
 * Use case 6: Add tasks
   * Actor: caregiver
