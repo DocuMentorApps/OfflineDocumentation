@@ -1,12 +1,13 @@
 # Actors
 * caregiver
-  * client facing healthcare worker
+  * client facing healthcare worker 
+  * caregiver uses an array of different personal devices (phone, tablet, laptop) - how much do we need to interact with their pre existing software?
   * care for patients in the patient's home
   * work in areas with, and or without internet service
   
 # Use cases
 
-* UC1: Sign in - not sure how we would do this offline - could still have caregiver enter username and password
+* UC1: Sign in - not sure how we would do this offline - could still have caregiver enter username and password - could be 
   and save this info in temp db. then once they
   * Business requirement: 
   * Actor: caregiver
@@ -47,7 +48,7 @@
 
 
 * UC6: Add tasks
-  * Business requirement: BR2
+  * Business requirement: BR2 -are these tasks the same for every patient?
   * Actor: caregiver
   * Flow: Caregiver can select a task (Hygiene- bed/sponge bath, Dress - Assist w dressing ....) from a drop down menu to be added to 
   a list of tasks.
@@ -55,7 +56,7 @@
   
   
 * UC7: Add goals
-  * Business requirement: BR2
+  * Business requirement: BR2 -are these the same for every patient
   * Actor: caregiver
   * Flow: Caregiver can select a goal from a drop down menu. Once they select a goal, they are prompted to enter their strategy used, select
   an outcome (succesful, succesful with assistance, unsucessful), enter a note, then save the outcome.
@@ -63,7 +64,7 @@
   
   
 - should caregivers be able to clock in to scheduled visits? - how would we do this offline?
-
+- should we build off of this existing website?
   
  
  
