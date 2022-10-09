@@ -34,6 +34,6 @@
 - NR7: The application must look like the pre-existing web app.
     - Business Requirements: BR3
     - Priority: MEDIUM
-- NR8: The application must provide all pre-existing caregiver functions while offline.
+- NR8: The application must provide the following functions while offline: clock-in & clock-out, select patient, track location when clocking in and out, view tasks and goals, and add comments
     - Business Requirements: BR4
     - Priority: HIGH
