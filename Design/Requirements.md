@@ -1,6 +1,6 @@
 # Requirements
 ## Functional Requirements
-- FR1: If the caregiver does not have internet access, the system shall save their clock-in and clock-out times and locations will be saved.
+- FR1: If the caregiver does not have internet access, the system shall save their clock-in and clock-out times and locations.
     - Business Requirements: BR1
     - Priority: HIGH
 - FR2: If the caregiver does not have internet access, the system shall display their list of tasks for their patient and allow them to mark them complete.
