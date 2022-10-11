@@ -23,7 +23,7 @@
 - NR3: Data shall be uploaded in less than 1 minute once the caregiver connects to the internet.
     - Business Requirements: BR1, BR2
     - Priority: MEDIUM
-- NR4: A trained user shall be able to clock-in and clock-out in an average of 1 minute, 95 percent of the time, after 10 minutes of orientation time.
+- NR4: A trained user shall be able to clock-in and clock-out in an average of 20 seconds, 95 percent of the time, after 10 minutes of orientation time.
     - Business Requirements: BR1
     - Priority: LOW
 - NR5: The application must use the AWS platform.
