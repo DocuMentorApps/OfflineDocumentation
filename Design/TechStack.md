@@ -2,7 +2,7 @@
 - Amazon Web Service (AWS)
     - https://aws.amazon.com/
     - AWS is selected because the client uses it to sync all of their online data, which we will need to do for the caregivers once they connect to the internet.
-- React
+- React Native
     - https://reactjs.org/
     - React is selected because the client has been using it for their web app already, and they want the offline web app to be built using the same frameworks.
 - Ruby on Rails
