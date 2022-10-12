@@ -39,7 +39,7 @@
 * UC5: Modify note
   * Business requirement: BR2
   * Actor: caregiver
-  * Flow: Caregiver can retype their note then press 'modify note' for the new note to be saved. 
+  * Flow: Caregiver can retype their note then press 'modify note' for the new note to be saved. This option is only visible  to the client within two         hours of clocking out.
   * Why it's a use case: If the caregiver makes a mistake, or thinks of adding more to the note later on, then they should be able to modify it. 
 
 
@@ -58,12 +58,5 @@
   an outcome (succesful, succesful with assistance, unsucessful), enter a note, then save the outcome.
   * Why it's a use case: Caregivers need to keep track of their client's progress. 
   
-  
-* Questions
-- should caregivers be able to clock in to scheduled visits? 
-- should we build off of this existing website?
-- are the list of tasks/goals the same for ever patient? 
-  
- 
  
   
