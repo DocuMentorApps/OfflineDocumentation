@@ -22,21 +22,26 @@
      * type the following commands into your terminal: 
        * $ rbenv install 2.7.5
        * $ rbenv global 2.7.5
+
+   3. Install shared-mime-info
+   * $ brew install shared-mime-info
  
-   3. Install Rails
-   * $ gem install rails
+   4. Install Rails
+   * $ gem install rails -v 6.1.3
    
-   4. Install PostgreSQL
+   5. Install PostgreSQL
    * $ brew install postgresql
    
-   5. Install node js
+   6. Install node js
    * $ brew install node
 
-   6. Install yarn
+   7. Install yarn
    * $ npm install --global yarn
    
-   7. Install babel
+   8. Install babel
    * $ brew install babel
+ 
+  
    
    ### For Windows
     
