@@ -38,7 +38,7 @@
    7. Install babel
    * $ brew install babel
    
-   ## For Windows
+   ### For Windows
     
    
    
