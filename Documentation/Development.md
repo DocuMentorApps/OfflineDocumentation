@@ -36,6 +36,10 @@
    8. Install babel: $ brew install babel
  
    ### For Windows
+   
+   
+   ## Clone the repo
+   git clone 
     
    
    
