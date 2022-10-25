@@ -8,8 +8,8 @@
   * verify installation with: $ brew doctor
      * if installed, output should be: Your system is ready to brew.
      * if you "see zsh: command not found: brew" type the following into your terminal and then restart terminal: 
-       $ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
-       $ eval "$(/opt/homebrew/bin/brew shellenv)"    
+       * $ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+       * $ eval "$(/opt/homebrew/bin/brew shellenv)"    
        
   2. Install Ruby
   * install rbenv
