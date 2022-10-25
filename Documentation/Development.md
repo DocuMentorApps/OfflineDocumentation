@@ -20,8 +20,8 @@
        * $ restart your terminal for changes to take effect
    * install ruby
      * type the following commands into your terminal: 
-       * $ rbenv install 3.1.2
-       * $ rbenv global 3.1.2
+       * $ rbenv install 2.7.5
+       * $ rbenv global 2.7.5
  
    3. Install Rails
    * $ gem install rails
