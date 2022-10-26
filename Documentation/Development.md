@@ -44,8 +44,8 @@
 
    ## Set up PostgreSQL db
    * Start postgres server (via brew on mac): brew services start postgresql@14
-   * Log in: psql -U <username>
-   * Create a new database: create database <dbname>
+   * Log in: psql -U 'username'
+   * Create a new database: create database 'dbname'
   
    ## Set up project
    * In your cloned repo:
