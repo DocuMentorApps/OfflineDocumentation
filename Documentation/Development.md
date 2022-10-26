@@ -33,7 +33,6 @@
 
    7. Install yarn: $ npm install --global yarn
    
-   8. Install babel: $ brew install babel
  
    ### For Windows
    
@@ -51,11 +50,18 @@
    * In your cloned repo:
       * Run $ bundle install 
       * Run $ bin/setup
+      * Run $ yarn install
       * Create a .env file in the root of the project following the .env.example file
             * **This is where you will specify postgres username, password, access keys etc.
       * To set up tables run: rails db:migrate
       * To populate tables with test data run:  rails dev:prime
   
+  
+  ## To run the project (locally)
+  * Start your postgres server: brew services start postgresql@14 (on mac)
+  * Run $ rails s (in the root of your project)
+      * After typing this command you should see something like: "* Listening on http://127.0.0.1:3000"
+  * Open the link in your browser
   
   
 
