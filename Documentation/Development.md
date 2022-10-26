@@ -62,6 +62,7 @@
   * Run $ rails s (in the root of your project)
       * After typing this command you should see something like: "* Listening on http://127.0.0.1:3000"
   * Open the link in your browser
+ 
   
   
 
