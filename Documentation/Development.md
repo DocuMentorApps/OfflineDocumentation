@@ -35,7 +35,32 @@
    
  
    ### For Windows
-   
+   1. Install NodeJS
+   * go to https://nodejs.org/en/ and download the latest stable version
+   * run the installer: <u>node_versionnumber.msi</u> and follow the instructions
+   2. Install Yarn
+   * go to https://classic.yarnpkg.com/en/docs/install#windows-stable and download the latest stable version
+   * run the installer: <u>yarn_versionnumber.msi</u> and follow the instructions
+   3. Download SQLite3
+   * go to https://sqlite.org/download.html and scroll to the section titled "Precompiled Binaries for Windows"
+     * download the <u>sqlite-tools-win32-x86-versionnumber.zip</u> file and extract the files to <i>..\Windows\System32</i>
+     * download the <u>sqlite-dll-windowsversion-versionnumber.zip</u> file that matches your version of Windows and extract the files to <i>..\Windows\System32</i>
+   4. Install Ruby
+   * go to https://rubyinstaller.org/downloads/archives/ and download <u>rubyinstaller-devkit-2.7.5-1-x64.exe</u>
+     * run the installer and follow the instructions
+   5. Install SQLite3: type <strong>gem install sqlite3</strong> in your terminal
+   6. Install Rails: type <strong>gem install rails</strong> in your terminal
+   7. Install PostgreSQL
+   * go to https://www.enterprisedb.com/downloads/postgres-postgresql-downloads and download the latest version under "Windows x86-64"
+     * run the installer and follow the instructions
+   8. Check that each program installed correctly
+   * Ruby: <strong>ruby --version</strong>
+   * SQLite3: <strong>sqlite3 --version</strong>
+   * NodeJS: <strong>node --version</strong>
+   * Yarn: <strong>yarn --version</strong>
+   * Gem: <strong>gem --version</strong>
+   * Rails: <strong>rails --version</strong>
+   * PostgreSQL: navigate to <i>..\PostgreSQL\15\bin</i> and run <strong>postgres --version</strong>
    
    ## Clone the repo
    * In your terminal: git clone https://github.com/ahuelhorst/documentor.git
