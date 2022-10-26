@@ -39,15 +39,31 @@
    
    
    ## Clone the repo
-   * in your terminal: git clone https://github.com/ahuelhorst/documentor.git
+   * In your terminal: git clone https://github.com/ahuelhorst/documentor.git
    * **This repo is currently private as it is a clone of DocuMentor's documentor repo**
+
+   ## Set up PostgreSQL db
+   * Start postgres server (via brew on mac): brew services start postgresql@14
+   * Log in: psql -U <username>
+   * Create a new database: create database <dbname>
   
    ## Set up project
-   * in your cloned repo:
-   * run $ bundle install 
-   * run $ bin/setup
+   * In your cloned repo:
+   * Run $ bundle install 
+   * Run $ bin/setup
+   * Create a .env file in the root of the project following the .env.example file
+      *  **This is where you will specify postgres username, password, access keys etc.
+   * To set up tables run: rails db:migrate
+   * To populate tables with test data run:  rails dev:prime
+  
+  
+  
 
-   ## To run the project
+  
+ 
+  
+  
+  
    
     
    
