@@ -53,7 +53,11 @@
    7. Install PostgreSQL
    * go to https://www.enterprisedb.com/downloads/postgres-postgresql-downloads and download the latest version under "Windows x86-64"
      * run the installer and follow the instructions
-   8. Check that each program installed correctly
+   8. Install Graphviz
+   * go to http://graphviz.org/download/ and scroll down to the Windows section, and choose the latest version that matches your OS
+   * run the installer: <u>windows_10_cmake_Release_graphviz-install-versionnumber-OSversion.exe</u>, and follow the instructions
+     * once it is installed, go to your terminal and type <strong>pip install graphviz</strong> and let the installation finish
+   10. Check that each program installed correctly
    * Ruby: <strong>ruby --version</strong>
    * SQLite3: <strong>sqlite3 --version</strong>
    * NodeJS: <strong>node --version</strong>
