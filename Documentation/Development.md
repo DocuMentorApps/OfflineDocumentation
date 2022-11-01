@@ -79,10 +79,10 @@
    * In your cloned repo:
       * Run $ bundle install 
       * Run $ bin/setup
-            * on Windows: ruby bin/setup 
+        * on Windows: ruby bin/setup 
       * MacOS: Run $ yarn install
       * Create a .env file in the root of the project following the .env.example file
-            * **This is where you will specify postgres username, password, access keys etc.
+        * **This is where you will specify postgres username, password, access keys etc.
       * To set up tables run: rails db:migrate
       * To add the data to the database: rails db:seed
       * To populate tables with test data run:  rails dev:prime
