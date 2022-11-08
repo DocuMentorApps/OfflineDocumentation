@@ -4,7 +4,7 @@
 2022/11/08/08:00
 
 ## Meeting End Time
-2022/09/25/09:10
+2022/11/08/09:10
 
 ## Location/Medium
 Zoom
