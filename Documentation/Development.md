@@ -3,7 +3,7 @@
 ## Install prerequisites
   ### For MacOS
   1. Install Homebrew if not already installed
-  * Type the following command into your terminal: $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  * Type the following command into your terminal: $ `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
   * Enter your mac password (used to sign in to your device) when prompted
   * Verify installation with: $ brew doctor
      * if installed, output should be: Your system is ready to brew.
