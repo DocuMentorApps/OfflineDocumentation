@@ -4,7 +4,7 @@
 2022/11/08/08:00
 
 ## Meeting End Time
-2022/09/25/09:00
+2022/09/25/09:10
 
 ## Location/Medium
 Zoom
@@ -18,7 +18,7 @@ Abby
 ## Topics Discussed
 * selected times for presentation meeting on Thursday
 * discussed what still needs to be done for first iteration - tests, writing info to file
-  * messaged developer team to ask them their preferred way for us to test (currently we are missing a file that is required for their preexisting testing     structure)
+  * currently getting postgres error when running tests on windows machine
 * worked on presentation slides
 
 ## Things Clarified
