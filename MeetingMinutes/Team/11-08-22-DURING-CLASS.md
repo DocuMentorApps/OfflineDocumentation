@@ -18,7 +18,8 @@ Abby
 ## Topics Discussed
 * selected times for presentation meeting on Thursday
 * discussed what still needs to be done for first iteration - tests, writing info to file
-  * currently getting postgres error when running tests on windows machine
+  * currently getting postgres error when running tests (with rspec) on windows machine
+  * instead writing plain ruby tests
 * worked on presentation slides
 
 ## Things Clarified
