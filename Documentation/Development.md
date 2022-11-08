@@ -17,7 +17,7 @@
        * `$ brew install rbenv`
        * `$ rbenv init`
        * `$ echo 'eval "$(rbenv init - )"' >> ~/.zshrc`
-       * `$ restart your terminal for changes to take effect`
+       * restart your terminal for changes to take effect
    * Install ruby
      * Type the following commands into your terminal: 
        * `$ rbenv install 2.7.5`
@@ -98,9 +98,9 @@
   ## Troubleshooting
   * After following environment set up: 
     * (Windows Specific) If you encounter an "Invalid URI" error when trying to run `ruby bin/setup`, run the following commands one after the other             instead of running `ruby bin/setup`: 
-      1) `ruby bin/rails db:prepare` 
-      2) `ruby bin/rails log:clear tmp:clear` 
-      3) `ruby bin/rails restart` 
+      * `ruby bin/rails db:prepare` 
+      * `ruby bin/rails log:clear tmp:clear` 
+      * `ruby bin/rails restart` 
      * If you encounter a Webpacker compilation error, check your version of Node (`node --version`). If you have node version 17 or above, downgrade your      version to 16.18.0
      * env file issue: If you are using DocuMentor's .env file (need permission, not provided in our repo) and you recieve a "Invalid password for                user..." error, ensure that you have created a role in postgres with DocuMentor's exact 'RDS_USERNAME', 'RDS_PASSWORD', and 'RDS_DB_NAME'. 
        See the following postgres commands for guidance: 
@@ -108,8 +108,8 @@
           * `GRANT USAGE ON DATABASE <RDS_DB_NAME> TO ROLE <RDS_USERNAME>;`
    * When trying to log in to DocuMentor's login page:
        * if username 'employee1@example.com' and password 'password' do not work and you are given a "Invalid Email or password" message, run the                  following commands in your project's terminal and then try to log in again:
-            1) `rails db:seed`
-            2) `rails db:prime`
+            * `rails db:seed`
+            * `rails db:prime`
       
 
 
