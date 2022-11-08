@@ -3,35 +3,35 @@
 ## Install prerequisites
   ### For MacOS
   1. Install Homebrew if not already installed
-  * Type the following command into your terminal: $ `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+  * Type the following command into your terminal: `$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
   * Enter your mac password (used to sign in to your device) when prompted
-  * Verify installation with: $ brew doctor
+  * Verify installation with: `$ brew doctor`
      * if installed, output should be: Your system is ready to brew.
-     * if you "see zsh: command not found: brew" type the following into your terminal and then restart terminal: 
-       * $ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
-       * $ eval "$(/opt/homebrew/bin/brew shellenv)"    
+     * if you see `zsh: command not found: brew` type the following into your terminal and then restart terminal: 
+       * `$ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile`
+       * `$ eval "$(/opt/homebrew/bin/brew shellenv)"` 
        
   2. Install Ruby
   * Install rbenv
      * Type the following commands into your terminal:
-       * $ brew install rbenv
-       * $ rbenv init
-       * $ echo 'eval "$(rbenv init - )"' >> ~/.zshrc
-       * $ restart your terminal for changes to take effect
+       * `$ brew install rbenv`
+       * `$ rbenv init`
+       * `$ echo 'eval "$(rbenv init - )"' >> ~/.zshrc`
+       * `$ restart your terminal for changes to take effect`
    * Install ruby
      * Type the following commands into your terminal: 
-       * $ rbenv install 2.7.5
-       * $ rbenv global 2.7.5
+       * `$ rbenv install 2.7.5`
+       * `$ rbenv global 2.7.5`
 
-   3. Install shared-mime-info: $ brew install shared-mime-info
+   3. Install shared-mime-info: `$ brew install shared-mime-info`
  
-   4. Install Rails: $ gem install rails -v 6.1.3
+   4. Install Rails: `$ gem install rails -v 6.1.3`
    
-   5. Install PostgreSQL: $ brew install postgresql
+   5. Install PostgreSQL: `$ brew install postgresql`
    
-   6. Install node js: $ brew install node
+   6. Install node js: `$ brew install node`
 
-   7. Install yarn: $ npm install --global yarn
+   7. Install yarn: `$ npm install --global yarn`
    
  
    ### For Windows
@@ -58,39 +58,39 @@
    * run the installer: <u>windows_10_cmake_Release_graphviz-install-versionnumber-OSversion.exe</u>, and follow the instructions
      * once it is installed, go to your terminal and type <strong>pip install graphviz</strong> and let the installation finish
    9. Check that each program installed correctly
-   * Ruby: <strong>ruby --version</strong>
-   * SQLite3: <strong>sqlite3 --version</strong>
-   * NodeJS: <strong>node --version</strong>
-   * Yarn: <strong>yarn --version</strong>
-   * Gem: <strong>gem --version</strong>
-   * Rails: <strong>rails --version</strong>
-   * PostgreSQL: navigate to <i>..\PostgreSQL\15\bin</i> and run <strong>postgres --version</strong>
+   * Ruby: <strong>`ruby --version`</strong>
+   * SQLite3: <strong>`sqlite3 --version`</strong>
+   * NodeJS: <strong>`node --version`</strong>
+   * Yarn: <strong>`yarn --version`</strong>
+   * Gem: <strong>`gem --version`</strong>
+   * Rails: <strong>`rails --version`</strong>
+   * PostgreSQL: navigate to <i>..\PostgreSQL\15\bin</i> and run <strong>`postgres --version`</strong>
    
    ## Clone the repo
    * In your terminal: git clone https://github.com/ahuelhorst/documentor.git
    * **This repo is currently private as it is a clone of DocuMentor's documentor repo**
 
    ## Set up PostgreSQL db
-   * Start postgres server (via brew on mac): brew services start postgresql@14
-   * Log in: psql -U 'username'
-   * Create a new database: create database 'dbname'
+   * Start postgres server (via brew on mac): `$ brew services start postgresql@14`
+   * Log in: `psql -U 'username'`
+   * Create a new database: `create database 'dbname'`
   
    ## Set up project
    * In your cloned repo:
-      * Run $ bundle install 
-      * Run $ bin/setup
-        * on Windows: ruby bin/setup 
-      * MacOS: Run $ yarn install
+      * Run `$ bundle install` 
+      * Run `$ bin/setup`
+        * on Windows: `ruby bin/setup`
+      * MacOS: Run `$ yarn install`
       * Create a .env file in the root of the project following the .env.example file
         * **This is where you will specify postgres username, password, access keys etc.
-      * To set up tables run: rails db:migrate
-      * To add the data to the database: rails db:seed
-      * To populate tables with test data run:  rails dev:prime
+      * To set up tables run: `rails db:migrate`
+      * To add the data to the database: `rails db:seed`
+      * To populate tables with test data run:  `rails dev:prime`
   
   
   ## To run the project (locally)
-  * Start your postgres server: brew services start postgresql@14 (on mac)
-  * Run $ rails s (in the root of your project)
+  * Start your postgres server: `$ brew services start postgresql@14` (on mac)
+  * Run `$ rails s` (in the root of your project)
       * After typing this command you should see something like: "* Listening on http://127.0.0.1:3000"
   * Open the link in your browser
  
