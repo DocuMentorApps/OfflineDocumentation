@@ -56,7 +56,7 @@
    8. Install Graphviz
    * go to http://graphviz.org/download/ and scroll down to the Windows section, and choose the latest version that matches your OS
    * run the installer: <u>windows_10_cmake_Release_graphviz-install-versionnumber-OSversion.exe</u>, and follow the instructions
-     * once it is installed, go to your terminal and type <strong>pip install graphviz</strong> and let the installation finish
+     * once it is installed, go to your terminal and type <strong>`pip install graphviz`</strong> and let the installation finish
    9. Check that each program installed correctly
    * Ruby: <strong>`ruby --version`</strong>
    * SQLite3: <strong>`sqlite3 --version`</strong>
@@ -83,9 +83,9 @@
       * MacOS: Run `$ yarn install`
       * Create a .env file in the root of the project following the .env.example file
         * **This is where you will specify postgres username, password, access keys etc.
-      * To set up tables run: `rails db:migrate`
-      * To add the data to the database: `rails db:seed`
-      * To populate tables with test data run:  `rails dev:prime`
+      * To set up tables run: `$ rails db:migrate`
+      * To add the data to the database: `$ rails db:seed`
+      * To populate tables with test data run:  `$ rails dev:prime`
   
   
   ## To run the project (locally)
@@ -93,6 +93,33 @@
   * Run `$ rails s` (in the root of your project)
       * After typing this command you should see something like: "* Listening on http://127.0.0.1:3000"
   * Open the link in your browser
+
+
+  ## Troubleshooting
+  * After following environment set up: 
+    * (Windows Specific) If you encounter an "Invalid URI" error when trying to run `ruby bin/setup`, run the following commands one after the other             instead of running `ruby bin/setup`: 
+      1) `ruby bin/rails db:prepare` 
+      2) `ruby bin/rails log:clear tmp:clear` 
+      3) `ruby bin/rails restart` 
+     * If you encounter a Webpacker compilation error, check your version of Node (`node --version`). If you have node version 17 or above, downgrade your      version to 16.18.0
+     * env file issue: If you are using DocuMentor's .env file (need permission, not provided in our repo) and you recieve a "Invalid password for                user..." error, ensure that you have created a role in postgres with DocuMentor's exact 'RDS_USERNAME', 'RDS_PASSWORD', and 'RDS_DB_NAME'. 
+       See the following postgres commands for guidance: 
+          * `CREATE ROLE <RDS_USERNAME> SUPERUSER LOGIN PASSWORD <RDS_PASSWORD>;`
+          * `GRANT USAGE ON DATABASE <RDS_DB_NAME> TO ROLE <RDS_USERNAME>;`
+   * When trying to log in to DocuMentor's login page:
+       * if username 'employee1@example.com' and password 'password' do not work and you are given a "Invalid Email or password" message, run the                  following commands in your project's terminal and then try to log in again:
+            1) `rails db:seed`
+            2) `rails db:prime`
+      
+
+
+
+
+   
+
+
+
+  
  
   
   
