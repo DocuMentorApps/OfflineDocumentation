@@ -67,7 +67,7 @@
    * PostgreSQL: navigate to <i>..\PostgreSQL\15\bin</i> and run <strong>`postgres --version`</strong>
    
    ## Clone the repo
-   * In your terminal: git clone https://github.com/ahuelhorst/documentor.git
+   * In your terminal: `$ git clone https://github.com/ahuelhorst/documentor.git`
    * **This repo is currently private as it is a clone of DocuMentor's documentor repo**
 
    ## Set up PostgreSQL db
