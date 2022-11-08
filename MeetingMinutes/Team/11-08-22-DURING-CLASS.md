@@ -1,1 +1,28 @@
+# Week of 11/07/22-11/13/22
+
+## Meeting Start Time
+2022/11/08/08:00
+
+## Meeting End Time
+2022/09/25/09:00
+
+## Location/Medium
+Zoom
+
+## Present
+Abby, Nathan, Lucas, Alex
+
+## Minute Recorder
+Abby
+
+## Topics Discussed
+* selected times for presentation meeting on Thursday
+* discussed what still needs to be done for first iteration - tests, writing info to file
+  * messaged developer team to ask them their preferred way for us to test (currently we are missing a file that is required for their preexisting testing     structure)
+* worked on presentation slides
+
+## Things Clarified
+* team meeting later today 
+* scheduled meeting with client to show first iteration features
+
 
