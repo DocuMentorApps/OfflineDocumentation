@@ -15,6 +15,6 @@
  * on mobile device navigate to your files app (looks like the following on iphone) 
 !["fileapp"](https://user-images.githubusercontent.com/89402649/200719641-98f59fdf-9ccd-4d92-b5e6-4415e1dbf85b.png)
 
-#### - once you have navigated to your downloads folder you should see a file labeled "offline.csv"
-#### - open this file to view your clock in and clock out data
+#### - Once you have navigated to your downloads folder you should see a file labeled "offline.csv"
+#### - Open this file to view your clock in and clock out data
 
