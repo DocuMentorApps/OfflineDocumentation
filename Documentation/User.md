@@ -2,13 +2,13 @@
 
 #### Navigate to https://live.yourdocumentor.com/users/sign_in and log in with your username and password 
 
-<img width="1406" alt="login" src="https://user-images.githubusercontent.com/89402649/200687085-16cf1277-265a-4041-8649-45ddee7bb5fa.png">
+<img width="1000" alt="login" src="https://user-images.githubusercontent.com/89402649/200687085-16cf1277-265a-4041-8649-45ddee7bb5fa.png">
 
 # To use offline functionality
 #### To see the offline page, disconnect from Internet
 #### You should see the following page in your browser 
 
-<img width="1430" alt="offline page" src="https://user-images.githubusercontent.com/89402649/200711275-5d349050-9a26-4165-a693-c5c255917280.png">
+<img width="1000" alt="offline page" src="https://user-images.githubusercontent.com/89402649/200711275-5d349050-9a26-4165-a693-c5c255917280.png">
 
 #### Type your name and your client's name into the corresponding text boxes
 #### Press clock in when you are ready to clock in to your shift
