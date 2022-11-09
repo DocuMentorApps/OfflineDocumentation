@@ -1,12 +1,12 @@
 # How to use DocuMentor
 
 #### - Navigate to https://live.yourdocumentor.com/users/sign_in and log in with your username and password 
-![](/Users/abbyhuelhorst/Desktop/login.png)
+!["test"](/Users/abbyhuelhorst/Desktop/login.png)
 
 # To use offline functionality
 #### - To see the offline page, disconnect from Internet
 #### - You should see the following page in your browser 
-![](/Users/abbyhuelhorst/Desktop/offline.png)
+![""](/Users/abbyhuelhorst/Desktop/offline.png)
 #### - Type your name and your client's name into the corresponding text boxes
 #### - Press clock in when you are ready to clock in to your shift
 ![](/Users/abbyhuelhorst/Desktop/clockin.png)
