@@ -4,7 +4,7 @@
 
 ## File/Folder Structure
 
-## Troubleshoot
+## Troubleshooting
 
 ## Critical/Vulnerable Pieces
 
