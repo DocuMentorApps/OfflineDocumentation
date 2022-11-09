@@ -20,7 +20,7 @@ DocuMentor
 
 
 ## Links
-* First Iteration Features: https://github.com/users/ahuelhorst/projects/1/views/1
-* Second Iteration Features: https://github.com/users/ahuelhorst/projects/2/views/1?layout=board
+* First Iteration Features: https://github.com/users/ahuelhorst/projects/1/
+* Second Iteration Features: https://github.com/users/ahuelhorst/projects/2/
 
 ## Code Repositories
