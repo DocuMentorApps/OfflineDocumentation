@@ -16,6 +16,7 @@
 !["fileapp"](https://user-images.githubusercontent.com/89402649/200719641-98f59fdf-9ccd-4d92-b5e6-4415e1dbf85b.png)
 
 #### - once you have navigated to your downloads folder you should see a file labeled "offline.csv"
-!["csv"](https://user-images.githubusercontent.com/89402649/200719892-547ea89c-9669-4dd4-b128-cc780de90223.png)
+!["csv"](https://user-images.githubusercontent.com/89402649/200720532-9ee5de84-5906-4c9c-a418-b7e720cd6b18.png)
 
 #### - open this file to view your clock in and clock out data
+
