@@ -7,7 +7,8 @@
 # To use offline functionality
 #### To see the offline page, disconnect from Internet
 #### You should see the following page in your browser 
-<img width="650" alt="offline page"src="https://userimages.githubusercontent.com/89402649/200711275-5d349050-9a26-4165-a693-c5c255917280.png">
+
+<img width="650" alt="Screen Shot 2022-11-08 at 5 21 48 PM" src="https://user-images.githubusercontent.com/89402649/200713093-38f79e8c-dd01-4483-b961-7423647b0b2f.png">
 
 #### Type your name and your client's name into the corresponding text boxes
 #### Press clock in when you are ready to clock in to your shift
