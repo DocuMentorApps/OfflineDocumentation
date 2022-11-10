@@ -1,3 +1,3 @@
-* Environment setup: [a relative link](Development.md)
-* User manual for end users: [a relative link](User.md)
-* Deployment: [a relative link](Deployment.md)
+* Environment setup: [Deployment.md](Development.md)
+* User manual for end users: [User.md](User.md)
+* Deployment: [Deployment.md](Deployment.md)
