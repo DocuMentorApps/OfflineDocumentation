@@ -7,7 +7,7 @@
 
 ## File/Folder Structure
 * To run the project locally for development : create a .env file in the root of the project following the .env.example file
-  **This is where you will specify postgres username, password, access keys etc.
+  <strong>This is where you will specify postgres username, password, access keys etc.</strong>
 * To set environment variables when deploying to heroku: `heroku config:set <env variable>`
 
 ## Logging
