@@ -1,14 +1,16 @@
 # Environment Setup
 
 ## Replicating via Docker
-* clone the repo
+* Clone the repo
    * In your terminal: `$ git clone https://github.com/ahuelhorst/documentor.git`
-* run `docker-compose build` in the root of the project
-* run `docker-compose up` in the root of the project
-* you should see  "* Listening on http://0.0.0.0:3000"
-* open the link in your browser
-    * the first time running the image you will have to resolve pending database migrations
-        * to do so: after you have opened the link in your broswer, scroll to the bottom of the page and click "run pending migrations"
+* If you do not already have Docker installed on your machine, do so through https://docs.docker.com/get-docker/ and create an account
+* Open and run the Docker Desktop app on your machine
+* Type `docker-compose build` in your terminal in the root of the project
+* Type `docker-compose up` in your terminal in the root of the project
+* You should see  "* Listening on http://0.0.0.0:3000" once the images are ready and running
+* Open the link in your browser
+    * The first time running the image you will have to resolve pending database migrations
+        * To do so: after you have opened the link in your browser, scroll to the bottom of the page and click "run pending migrations"
 
 ## Install prerequisites
   ### For MacOS
