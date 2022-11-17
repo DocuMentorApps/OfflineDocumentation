@@ -1,5 +1,13 @@
 # Environment Setup
 
+## Replicating via Docker
+* run `docker-compose build`
+* run `docker-compose up`
+* you should see  "* Listening on http://0.0.0.0:3000"
+* open the link in your browser
+    * the first time running the image you will have to resolve pending database migrations
+        * to do so: after you have opened the link in your broswer, scroll to the bottom of the page and click "run pending migrations"
+
 ## Install prerequisites
   ### For MacOS
   1. Install Homebrew if not already installed
