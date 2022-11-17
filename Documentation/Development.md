@@ -1,8 +1,10 @@
 # Environment Setup
 
 ## Replicating via Docker
-* run `docker-compose build`
-* run `docker-compose up`
+* clone the repo
+   * In your terminal: `$ git clone https://github.com/ahuelhorst/documentor.git`
+* run `docker-compose build` in the root of the project
+* run `docker-compose up` in the root of the project
 * you should see  "* Listening on http://0.0.0.0:3000"
 * open the link in your browser
     * the first time running the image you will have to resolve pending database migrations
