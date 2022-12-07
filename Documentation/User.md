@@ -6,15 +6,15 @@
 # To use offline functionality
 #### - To see the offline page, disconnect from Internet
 #### - You should see the following page in your browser 
-!["offline"](https://user-images.githubusercontent.com/89402649/200718690-cb8de853-d544-49ef-a299-1880447f0633.png)
-#### - Type your name and your client's name into the corresponding text boxes
+![offline home page](https://user-images.githubusercontent.com/70287876/206278295-0cf81a14-af72-4c96-ab29-c4d80dccba8a.png)
+
+#### - Type your client's id into the corresponding text box
 #### - Press clock in when you are ready to clock in to your shift
-!["clockin"](https://user-images.githubusercontent.com/89402649/200720121-0d114370-636d-4b67-958f-e50965f641c7.png)
-#### - Press clock out when you are ready to clock out of your shift 
-#### - After pressing the clock out button, a file will be saved on your device with the following information: your name, your client's name, clock in time, and clock out time. To see this file, navigate to your device's downloads folder. 
- * on mobile device navigate to your files app (looks like the following on iphone) 
-!["fileapp"](https://user-images.githubusercontent.com/89402649/200719641-98f59fdf-9ccd-4d92-b5e6-4415e1dbf85b.png)
+![offline clocked in](https://user-images.githubusercontent.com/70287876/206279022-b2ef7a65-12ab-4638-bd18-d886fdbeeb9b.png)
 
-#### - Once you have navigated to your downloads folder you should see a file labeled "offline.csv"
-#### - Open this file to view your clock in and clock out data
+#### - Select the correct visit task and service from their respective dropdowns
+#### - Enter a note in the notes text area, then press clock out when you are ready to clock out of your shift 
+#### - After pressing the clock out button, the data will be saved to your browser's local storage
+![offline clocked out](https://user-images.githubusercontent.com/70287876/206278975-e5052fc4-5b2a-469e-84a5-35882044bfd0.png)
 
+### - Once you go back online, your clock in & clock out data will be synced to the Documentor database
