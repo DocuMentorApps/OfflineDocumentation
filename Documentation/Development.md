@@ -2,10 +2,10 @@
 
 ## Linting
 * Steps for linting Ruby code:
-  1) install rubocop gem: `gem install rubocop`
-  2) to lint the project simply type `rubocop` in your terminal
-      * you should see a list of violations as output
-  4) to automatically correct the offenses run `bundle exec rubocop --auto-correct`
+1) install rubocop gem: `gem install rubocop`
+2) to lint the project simply type `rubocop` in your terminal
+   * you should see a list of violations as output
+4) to automatically correct the offenses run `bundle exec rubocop --auto-correct`
 
 ## Replicating via Docker
 * Clone the repo
