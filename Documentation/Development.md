@@ -8,23 +8,29 @@
   * to automatically correct the offenses run `bundle exec rubocop --auto-correct`
 * Steps for linting JavaScript code:
   * To get started, run the following command in the terminal to install ESLint as a dev dependency:
-    * npm install --save-dev eslint eslint-config-airbnb
+    * `npm install --save-dev eslint eslint-config-airbnb`
   * Then initialize ESLint.
-    * npx eslint --init
+    * `npx eslint --init`
   * You’ll be prompted with questions about your project. When prompted with:
-    * ? How would you like to use EsLint?
+    * `? How would you like to use EsLint?`
   * Select this option:
-    *  To check syntax, find problems and enforce code style
+    * `To check syntax, find problems and enforce code style`
   * Answer the next questions as per your project until you come across the following prompt.
-    * ? How would you like to define a style for your project?
+    * `? How would you like to define a style for your project?`
   * Answer:
-    *  Use a popular style guide
+    * `Use a popular style guide`
   * Select the Airbnb style guide for the next prompt.
-    * ? Which style guide do you want to follow? \n > Airbnb: <https://github.com/airbnb/javascript>
+    * `<? Which style guide do you want to follow? \n > Airbnb: <https://github.com/airbnb/javascript>`
   * Lastly select "Yes" to install the required dependencies.
   * There should now be a .eslintrn.json file in the root of the folder.
   * To run the linter on a js file use:
-    * npx eslint [relative path to file]\file.js
+    * `npx eslint [relative path to file]\file.js`
+* To lint embeded JavaScript in an html file simply add the following to your .eslintrn.json file:
+  * `plugins: [
+    "html"
+  ]`
+  * To run the linter on an html file with embeded js use:
+    * `npx eslint [relative path to file]\file.html`
  
 
 ## Replicating via Docker
