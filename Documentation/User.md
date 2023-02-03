@@ -6,14 +6,21 @@
 # To use offline functionality
 #### - To see the offline page, disconnect from Internet
 #### - You should see the following page in your browser 
-![offline home page](https://user-images.githubusercontent.com/70287876/206278295-0cf81a14-af72-4c96-ab29-c4d80dccba8a.png)
+![offline home page](https://user-images.githubusercontent.com/89402649/216667536-bf1cd4a4-58c9-4c3a-9850-afb34130de18.png)
 
-#### - Type your client's id into the corresponding text box
-#### - Press clock in when you are ready to clock in to your shift
-![offline clocked in](https://user-images.githubusercontent.com/70287876/206279022-b2ef7a65-12ab-4638-bd18-d886fdbeeb9b.png)
+#### - Select your client from the drop down menu
+![offline clocked in](https://user-images.githubusercontent.com/89402649/216667749-ca828133-55a8-4b55-b5fe-901a81ee5441.png)
 
-#### - Select the correct visit task and service from their respective dropdowns
-#### - Enter a note in the notes text area, then press clock out when you are ready to clock out of your shift 
+#### - Choose the service you are performing from your specified client's list of services
+![offline services](https://user-images.githubusercontent.com/89402649/216668017-448b11fd-cad3-418c-bfff-244d6447fe78.png)
+
+#### - Press clock in when you are ready to clock in to your shift, and then enter a note for the visit once you are finished
+![offline note](https://user-images.githubusercontent.com/89402649/216668185-c3b5b99b-f659-4a77-b456-4c61350312a5.png)
+
+#### - Press clock out button when you are ready to clock out of your visit
+![offline clock_out](https://user-images.githubusercontent.com/89402649/216668508-cab32a95-09e1-4c47-bed9-138bc0c2b708.png)
+
+
 #### - After pressing the clock out button, the data will be saved to your browser's local storage
 ![offline clocked out](https://user-images.githubusercontent.com/70287876/206278975-e5052fc4-5b2a-469e-84a5-35882044bfd0.png)
 
