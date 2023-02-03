@@ -1,10 +1,10 @@
 # Week of 10/2/22-10/9/22
 
 ## Meeting Start Time
-2022/10/06/08:15pm
+2022/10/06/08:15AM
 
 ## Meeting End Time
-2022/10/06/09:00pm
+2022/10/06/09:00AM
 
 ## Location/Medium
 RB 104/Zoom
