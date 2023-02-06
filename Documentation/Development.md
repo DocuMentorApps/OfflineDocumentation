@@ -1,6 +1,4 @@
-# Environment Setup
-
-## Linting
+# Linting
 * Steps for linting Ruby code:
   * install rubocop gem: `gem install rubocop`
   * to lint the project simply type `rubocop` in your terminal
@@ -32,6 +30,7 @@
   * To run the linter on an html file with embeded js use:
     * `npx eslint [relative path to file]\file.html`
  
+# Environment Setup
 
 ## Replicating via Docker
 * Clone the repo
@@ -45,8 +44,8 @@
     * The first time running the image you will have to resolve pending database migrations
         * To do so: after you have opened the link in your browser, scroll to the bottom of the page and click "run pending migrations"
 
-## Install prerequisites
-  ### For MacOS
+## Manual set up
+  ### Install prerequisites (MacOS)
   1. Install Homebrew if not already installed
   * Type the following command into your terminal: `$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
   * Enter your mac password (used to sign in to your device) when prompted
@@ -79,7 +78,7 @@
    7. Install yarn: `$ npm install --global yarn`
    
  
-   ### For Windows
+   ### Install prerequisites (Windows)
    1. Install NodeJS
    * go to https://nodejs.org/en/ and download the latest stable version
    * run the installer: <u>node_versionnumber.msi</u> and follow the instructions
@@ -154,8 +153,16 @@
    * When trying to log in to DocuMentor's login page:
        * if username 'employee1@example.com' and password 'password' do not work and you are given a "Invalid Email or password" message, run the                  following commands in your project's terminal and then try to log in again:
             * `rails db:seed`
-            * `rails db:prime`
-      
+            * `rails db:prime`'
+   
+  
+  # Tests
+  * to javascript run tests: `yarn test`
+     * to run tests for a specific file: `yarn test <file name>`
+     * add `--coverage` to generate a coverage report
+  * to run ruby tests: `rspec <file name>`
+ 
+
 
 
 
