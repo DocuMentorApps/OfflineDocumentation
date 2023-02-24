@@ -3,7 +3,7 @@
   * install rubocop gem: `gem install rubocop`
   * to lint the project simply type `rubocop` in your terminal
     * you should see a list of violations as output
-  * to automatically correct the offenses run `bundle exec rubocop --auto-correct`
+  * to automatically correct the offenses run `bundle exec rubocop --autocorrect`
 * Steps for linting JavaScript code:
   * To get started, run the following command in the terminal to install ESLint as a dev dependency:
     * `npm install --save-dev eslint eslint-config-airbnb`
