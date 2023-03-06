@@ -83,25 +83,27 @@
    * go to https://nodejs.org/en/ and download the latest stable version
    * run the installer: <u>node_versionnumber.msi</u> and follow the instructions
    2. Install Yarn
+   * run npm install --global arn in terminal
+     * or
    * go to https://classic.yarnpkg.com/en/docs/install#windows-stable and download the latest stable version
    * run the installer: <u>yarn_versionnumber.msi</u> and follow the instructions
-   3. Download SQLite3
+   4. Download SQLite3
    * go to https://sqlite.org/download.html and scroll to the section titled "Precompiled Binaries for Windows"
      * download the <u>sqlite-tools-win32-x86-versionnumber.zip</u> file and extract the files to <i>..\Windows\System32</i>
      * download the <u>sqlite-dll-windowsversion-versionnumber.zip</u> file that matches your version of Windows and extract the files to <i>..\Windows\System32</i>
-   4. Install Ruby
+   5. Install Ruby
    * go to https://rubyinstaller.org/downloads/archives/ and download <u>rubyinstaller-devkit-2.7.5-1-x64.exe</u>
      * run the installer and follow the instructions
-   5. Install SQLite3: type <strong>gem install sqlite3</strong> in your terminal
-   6. Install Rails: type <strong>gem install rails</strong> in your terminal
-   7. Install PostgreSQL
+   6. Install SQLite3: type <strong>gem install sqlite3</strong> in your terminal
+   7. Install Rails: type <strong>gem install rails</strong> in your terminal
+   8. Install PostgreSQL
    * go to https://www.enterprisedb.com/downloads/postgres-postgresql-downloads and download the latest version under "Windows x86-64"
      * run the installer and follow the instructions
-   8. Install Graphviz
+   9. Install Graphviz
    * go to http://graphviz.org/download/ and scroll down to the Windows section, and choose the latest version that matches your OS
    * run the installer: <u>windows_10_cmake_Release_graphviz-install-versionnumber-OSversion.exe</u>, and follow the instructions
      * once it is installed, go to your terminal and type <strong>`pip install graphviz`</strong> and let the installation finish
-   9. Check that each program installed correctly
+   10. Check that each program installed correctly
    * Ruby: <strong>`ruby --version`</strong>
    * SQLite3: <strong>`sqlite3 --version`</strong>
    * NodeJS: <strong>`node --version`</strong>
