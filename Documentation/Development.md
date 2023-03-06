@@ -83,7 +83,7 @@
    * go to https://nodejs.org/en/ and download the latest stable version
    * run the installer: <u>node_versionnumber.msi</u> and follow the instructions
    2. Install Yarn
-   * run npm install --global arn in terminal
+   * run `npm install --global yarn` in terminal
      * or
    * go to https://classic.yarnpkg.com/en/docs/install#windows-stable and download the latest stable version
    * run the installer: <u>yarn_versionnumber.msi</u> and follow the instructions
