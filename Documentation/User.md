@@ -17,6 +17,10 @@
 #### - Press clock in when you are ready to clock in to your shift, and then enter a note for the visit once you are finished
 ![offline note](https://user-images.githubusercontent.com/89402649/216668185-c3b5b99b-f659-4a77-b456-4c61350312a5.png)
 
+#### - Select goal(s) for your client (not required for visits)
+
+#### - Select task(s) that you accomplished/need to accomplish during the visit (not required to clock out of visits)
+
 #### - Press clock out button when you are ready to clock out of your visit
 ![offline clock_out](https://user-images.githubusercontent.com/89402649/216668508-cab32a95-09e1-4c47-bed9-138bc0c2b708.png)
 
