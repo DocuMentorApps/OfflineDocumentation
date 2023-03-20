@@ -24,5 +24,6 @@
 #### - Press clock out button when you are ready to clock out of your visit
 ![offline clock_out](https://user-images.githubusercontent.com/89402649/216668508-cab32a95-09e1-4c47-bed9-138bc0c2b708.png)
 
+#### - Note: you can be clocked into multiple visits at the same time
 #### - After pressing the clock out button, the data will be saved to your browser's local storage
 #### - Once internet connection is reestablished, each set of visit data will be synced to Documentor's database
