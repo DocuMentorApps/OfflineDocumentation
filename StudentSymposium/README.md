@@ -21,4 +21,4 @@ Cameron Allan
 ## Abby 
 * Overall, the student symposium went well. I presented to a few judges as well as a few normal visitors. Some of them were non technical, so I did not go very in depth about the specific technologies we used. Instead I emphasized the business problem and our solution. Everyone I presented to seemed enthusiastic and interested in our project. Also, I got to walk around and listen to other projects from students in differnt departments which was a cool experience. 
 
-## Alex: 
+## Alex
