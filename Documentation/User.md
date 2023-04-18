@@ -14,10 +14,10 @@
 #### - Or, you can select the 'In Progress Visits' tab to see any visits you have in progress (visits that you clocked in to online but did not clock out of will show up here)
 <img src="https://user-images.githubusercontent.com/89402649/232652057-a74a7d01-9c28-4ce6-862c-77463ac6a685.png" width="800" height="500">
 
-#### - If your client has goals, you can select them from the goals drop down and then press the 'Add Goal' button
+#### - If your client has goals, you can select them from the goals drop down and then press the 'Add Goal to Visit' button
 <img src="https://user-images.githubusercontent.com/89402649/232652383-54708480-7cbe-4278-b077-19e6e5a2fa82.png" width="800" height="500">
 
-#### - If you would like to add tasks to your visit, you can select them from the tasks drop down and then press 'Add Task'
+#### - If you would like to add tasks to your visit, you can select them from the tasks drop down and then press 'Add Task to Visit'
 #### - To delete the task from the visit you can press the 'x' button next to the desired task 
 <img src="https://user-images.githubusercontent.com/89402649/232652768-32c0b38e-69e4-4fe3-b89f-b9155bdab651.png" width="800" height="500">
 
@@ -34,6 +34,7 @@
 #### - Once Internet connection is reestablished, you will be prompted to refresh your window
 <img src="https://user-images.githubusercontent.com/89402649/232653486-19c4bff5-8924-4a8e-8fb9-edfd6ff640ad.png" width="800" height="500">
 
+#### - After refreshing the page, your data will be uploaded
 
 
 
