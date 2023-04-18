@@ -19,6 +19,23 @@
 
 #### - If you would like to add tasks to your visit, you can select them from the tasks drop down and then press 'Add Task'
 #### - To delete the task from the visit you can press the 'x' button next to the desired task 
-<img src="https://user-images.githubusercontent.com/89402649/232652383-54708480-7cbe-4278-b077-19e6e5a2fa82.png" width="800" height="500">
+<img src="https://user-images.githubusercontent.com/89402649/232652768-32c0b38e-69e4-4fe3-b89f-b9155bdab651.png" width="800" height="500">
+
+#### - To add a note to your visit, type in the note in the textbox and then press 'Enter Note'
+<img src="https://user-images.githubusercontent.com/89402649/232652924-11bd7605-f425-45df-8cd9-e1e910f6fe16.png" width="800" height="500">
+
+#### - When you are ready to clock out of your visit, press 'Express Clock-Out'
+<img src="https://user-images.githubusercontent.com/89402649/232653024-14bab402-367c-4277-9e66-9c7c73c3bce8.png" width="800" height="500">
+
+#### - You should see a pop up message stating that your visit has been updated
+<img src="https://user-images.githubusercontent.com/89402649/232653190-746202c5-434e-464a-87fe-7567f5819d2b.png" width="800" height="500">
+
+#### - To clock in to another visit, press the 'New Visit' tab and clock in
+#### - Once Internet connection is reestablished, you will be prompted to refresh your window
+<img src="https://user-images.githubusercontent.com/89402649/232653486-19c4bff5-8924-4a8e-8fb9-edfd6ff640ad.png" width="800" height="500">
+
+
+
+
 
 
