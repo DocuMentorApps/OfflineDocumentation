@@ -5,6 +5,5 @@
 
 # To use offline functionality
 #### - When Internet connection is lost you will be prompted to refresh your page
-
-<img height:"50%" alt="offline_prompt" src="https://user-images.githubusercontent.com/89402649/232650781-ebb2f4a8-f27b-4348-83d3-011b15bf0b9a.png">
+<img src="https://user-images.githubusercontent.com/89402649/232651046-1c013886-f2af-4326-9b7c-e05eb2c80ed3.png" width="500" height="600">
 
